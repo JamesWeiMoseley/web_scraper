@@ -1,0 +1,59 @@
+body {
+    background-color: #0E0B16;
+    background-image: url(star.jpeg);
+    font-size: 1.2rem;
+}
+
+h1 {
+    text-align: center;
+    /* color: rgb(60, 53, 104); */
+    color: #A239CA;
+    padding: 1rem;
+    font-size: 4rem;
+}
+
+.in {
+    margin: auto;
+    width: 50%;
+    border: 1px solid;
+    padding: 2rem;
+    color: #fff;
+    /* background-color: rgb(139, 106, 172); */
+    background-color: #A239CA;
+    text-shadow: 0 1px 3px rgba(0, 0, 1, 0.927);
+    border-color: #4717F6;
+    box-shadow: 0 1px 50px #4717F6;
+    height: 60vh;
+}
+
+.input_container {
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+button {
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+    width: 100%;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: rgb(43, 38, 77);
+    color:rgb(220, 218, 196);
+}
+
+input {
+    box-shadow: 0 3px 10px rgba(0, 0, 1, 0.324);
+    width: 100%;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 12px 20px;
+
+}
