@@ -7,11 +7,10 @@ var bodyParser = require('body-parser');
 const app = express();
 const port = process.env.PORT || 4000;
 
-app.use(express.json());
-app.use(express.urlencoded());
+app.use(bodyParser.urlencoded({extended: true}));
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, '/index.html'));
+    res.sendFile(path.join(__dirname, 'public/index.html'));
 });
 
 app.listen(port, () => console.log("listening on port 4000"));
