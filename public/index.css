@@ -2,6 +2,7 @@ body {
     background-color: #0E0B16;
     /* background-image: url(star.jpeg); */
     font-size: 1.2rem;
+    padding: 3rem;
 }
 
 h1 {
@@ -23,7 +24,6 @@ h1 {
     text-shadow: 0 1px 3px rgba(0, 0, 1, 0.927);
     border-color: #4717F6;
     box-shadow: 0 1px 50px #4717F6;
-    height: 60vh;
 }
 
 .input_container {
@@ -56,4 +56,17 @@ input {
     display: inline-block;
     padding: 12px 20px;
 
+}
+
+
+.bottom_box {
+    background-color: #A239CA;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+
+.container {
+    padding: 5rem;
 }
