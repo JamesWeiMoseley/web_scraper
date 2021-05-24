@@ -14,6 +14,7 @@ h1 {
     text-shadow: 0 1px 3px rgba(0, 0, 1, 0.927);
 }
 
+/* container for entire top half */
 .in {
     margin: auto;
     width: 55%;
@@ -21,6 +22,7 @@ h1 {
     text-shadow: 0 1px 3px rgba(0, 0, 1, 0.927);
 }
 
+/* container for box thats holds inputs and submits */
 .in_container {
     padding: 3rem;
     margin-left: auto;
@@ -68,7 +70,7 @@ input {
 
 }
 
-
+/* bottom half */
 .bottom_box {
     width: 70%;
     margin-left: auto;
