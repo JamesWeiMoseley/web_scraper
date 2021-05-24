@@ -29,6 +29,7 @@ h1 {
     margin-right: auto;
     background-color: #A239CA;
     border-radius: 4px;
+    box-shadow: 1px 1px 15px 5px #4717F6;
 }
 
 /* each input box */
