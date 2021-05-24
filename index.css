@@ -1,8 +1,8 @@
 body {
-    background-color: #0E0B16;
-    /* background-image: url(star.jpeg); */
+    /* background-color: #0E0B16; */
+    background-color: rgb(45, 45, 45);
     font-size: 1.2rem;
-    padding: 3rem;
+    /* padding: 3rem; */
 }
 
 h1 {
@@ -11,24 +11,30 @@ h1 {
     color: #A239CA;
     padding: 1rem;
     font-size: 4rem;
+    text-shadow: 0 1px 3px rgba(0, 0, 1, 0.927);
 }
 
 .in {
     margin: auto;
     width: 50%;
-    border: 1px solid;
-    padding: 2rem;
     color: #fff;
-    /* background-color: rgb(139, 106, 172); */
-    background-color: #A239CA;
     text-shadow: 0 1px 3px rgba(0, 0, 1, 0.927);
-    border-color: #4717F6;
-    box-shadow: 0 1px 50px #4717F6;
 }
 
+.in_container {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* each input box */
 .input_container {
     color: #fff;
     padding-bottom: 1rem;
+}
+
+p {
+    text-align: center;
 }
 
 button {
@@ -43,8 +49,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(43, 38, 77);
-    color:rgb(220, 218, 196);
+    background-color: #A239CA;
 }
 
 input {
@@ -60,13 +65,19 @@ input {
 
 
 .bottom_box {
-    background-color: #A239CA;
-    width: 60%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     padding: 2rem;
 }
 
 .container {
-    padding: 5rem;
+    padding: 1rem;
+}
+
+h2 {
+    text-align: center;
+    /* color: rgb(60, 53, 104); */
+    padding: 1rem;
+    text-shadow: 0 1px 3px #fff;
 }
