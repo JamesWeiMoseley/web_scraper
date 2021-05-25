@@ -8,15 +8,19 @@
     <title>Webscraper</title>
 </head>
 <body>
+    <div class="nav_bar">
+        <a href="index.html">&#127968; Home</a>
+        <a href="summary.html">&#128214; Summary</a>
+    </div>
     <h1>Webscraper by James</h1>
     <form class='in' id="submit_text" method="POST">
         <div class="in_container">
             <div class="input_container">
-                <label>Add url here</label>
+                <label>Add URL here</label>
                 <input type="text" id="url_input" placeholder="Type URL Here..">
             </div>
             <div class="input_container">
-                <label>Add your API that we will send a JSON to as a POST method</label>
+                <label>Add API that will transform the text</label>
                 <input type="text" id="api_input" placeholder="Type API Here..">
             </div>
             <button id="submit_button" type="submit">Submit</button><br>
