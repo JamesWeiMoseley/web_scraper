@@ -13,7 +13,7 @@
         <a href="summary.html">&#128214; Summary</a>
     </div>
     <h1>Webscraper by James</h1>
-    <form class='in' id="submit_text" method="POST">
+    <form class='in' id="submit_text">
         <div class="in_container">
             <div class="input_container">
                 <label>Add URL here</label>
@@ -23,10 +23,20 @@
                 <label>Add API that will transform the text</label>
                 <input type="text" id="api_input" placeholder="Type API Here..">
             </div>
+
+            <div class="radio_input">
+                <p class="left">Which text do you want scraped?</p>
+                <input type="radio" id="p" value="p" name="which">
+                <label for="p">Paragraph Text</label><br>
+                <input type="radio" id="" value="h" name="which">
+                <label for="h">Header Text</label>
+                <pre id="choice"></pre>
+            </div>
+
             <button id="submit_button" type="submit">Submit</button><br>
             </div>
-            <p>Sample url: https://en.wikipedia.org/wiki/Frances_Gertrude_McGill</p>
-            <p>Jesse's API: https://transform-text-api.herokuapp.com/transform </p>
+            <p>Sample URL: https://en.wikipedia.org/wiki/Feast_of_Corpus_Christi </p>
+            <p>Sample API: https://transform-text-api.herokuapp.com/transform </p>
     </form>
     <div class="container">
         <div class="bottom_box">

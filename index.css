@@ -17,7 +17,7 @@ h1 {
 /* container for entire top half */
 .in {
     margin: auto;
-    width: 55%;
+    width: 65%;
     color: #fff;
     text-shadow: 0 1px 3px rgba(0, 0, 1, 0.927);
 }
@@ -60,7 +60,7 @@ button:hover {
     box-shadow: 0 3px 10px rgba(0, 0, 1, 0.324);
 }
 
-input {
+.input_container input {
     box-shadow: 0 3px 10px rgba(0, 0, 1, 0.324);
     width: 100%;
     margin: 8px 0;
@@ -104,4 +104,12 @@ a {
 
 a:hover {
     color:#7a249d;
+}
+
+.radio_input {
+    padding-bottom: 2rem;
+}
+
+.left {
+    text-align: left;
 }
